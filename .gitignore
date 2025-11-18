@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+main.js
+main.js.map
+npm-debug.log*
+.esbuild
+.vscode/
+data.json

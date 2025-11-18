@@ -1,0 +1,28 @@
+{
+  "name": "paffle-latex-viewer",
+  "version": "0.1.0",
+  "description": "Obsidian plugin that renders LaTeX source files inside the editor",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "tsc --noEmit && node esbuild.config.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "latex"
+  ],
+  "author": "Autocode Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "esbuild": "^0.20.2",
+    "obsidian": "^1.5.0",
+    "rimraf": "^5.0.5",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "latex.js": "^0.12.12"
+  }
+}

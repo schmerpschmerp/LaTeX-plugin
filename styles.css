@@ -1,0 +1,28 @@
+.latex-preview-view {
+  padding: var(--size-4-4);
+  overflow-y: auto;
+}
+
+.latex-preview-view__message {
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: var(--size-4-4);
+}
+
+.latex-preview-view__body {
+  background: var(--background-secondary);
+  border-radius: var(--radius-m);
+  padding: var(--size-4-4);
+  box-shadow: var(--shadow-s);
+}
+
+.latex-preview-view__body h1,
+.latex-preview-view__body h2,
+.latex-preview-view__body h3,
+.latex-preview-view__body h4 {
+  font-weight: 600;
+}
+
+.latex-preview-view__assets {
+  display: none;
+}

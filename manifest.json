@@ -1,0 +1,10 @@
+{
+  "id": "paffle-latex-viewer",
+  "name": "Paffle LaTeX Viewer",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Render .tex and .latex files directly inside Obsidian using a custom view.",
+  "author": "Autocode Assistant",
+  "authorUrl": "https://example.com",
+  "isDesktopOnly": false
+}
